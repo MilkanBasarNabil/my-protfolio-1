@@ -1,0 +1,145 @@
+@media (max-width: 1200px) {
+  .hero-rounded-img i {
+    top: 50%;
+    left: 86%;
+  }
+  /* .hero-card-box {
+    max-width:767px;
+    
+} */
+}
+
+@media (max-width: 992px) {
+  .hero-rounded-img i {
+    top: 50%;
+    left: 81%;
+  }
+}
+
+@media (max-width: 768px) {
+  #main {
+    margin-top: 215%;
+    /* padding: 1% 1%; */
+}
+  .navbar {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* position: fixed;
+    z-index: 0; */
+  }
+  .hero-card-box {
+    margin-top: 3%;
+    display: contents;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-card {
+    margin-top: 29%;
+    max-width: 100%;
+    position: absolute;
+  }
+ 
+  .hero-text-heading h2 {
+    font-size: 34px;
+  }
+  .hero-rounded-img i {
+    top: 54%;
+    left: 91%;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0.1px;
+    z-index: 1;
+}
+ 
+  .hero-text-heading h2 {
+    font-size: 25px;
+}
+.hero-experience h2 {
+  font-size: 25px;
+  color: #28e98c;
+}
+#about .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+#resume .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+.resume-time-line .item h2 {
+  color: #ffffff;
+  margin-top: 5%;
+  font-size: 17px;
+  /* font-weight: 500; */
+}
+#services .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+}
+.service-items .text h2 {
+  font-size: 16px;
+  color: #ffffff;
+}
+.service-items .text p {
+  font-size: 10px;
+  color: #ffffffb1;
+}
+#skills .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 3%;
+}
+#portfolio .heading h2 {
+  font-size: 25px;
+  margin-top: 4px;
+  color: #ffffff;
+}
+#testimonial .heading h2 {
+  font-size: 25px;
+  margin-top: 4px;
+  color: #ffffff;
+}
+.testimonial-clients-brand img {
+  width: 100%;
+}
+#pricing .heading {
+  color: #ffffff;
+  font-size: 25px;
+}
+#contact .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+}
+}
+@media (max-width: 421px) {
+ 
+  .hero-rounded-img i {
+    top: 45%;
+    left: 81%;
+  }
+}

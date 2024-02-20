@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Owl carusel css-->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <!-- AOS animation css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- my--css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- mediaQuary css -->
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <section id="full">
+      <div class="container-fluid">
+        <div class="row">
+          <!--fixed Side card -->
+          <div class="col-md-3 position-relative hero-card-box side-card z-0">
+            <div class="container text-center">
+              <div class="row-cols-1 row-cols-lg-1 g-2 g-lg-1">
+                <div class="col">
+                  <div class="p-3">
+                    <div
+                      class="hero-card fixed-top"
+                      data-aos="zoom-in"
+                      data-aos-duration="1500"
+                    >
+                      <div class="hero-card-head">
+                        <a href="#hero">
+                          <img class="" src="./images/logo.png" alt="" />
+                        </a>
+                        <p>Framer Designer &amp; Developer</p>
+                      </div>
+                      <div class="hero-card-img">
+                        <img
+                          class="img-fluid"
+                          src="./images/hero-card-img.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="hero-card-text text-center">
+                        <h2>
+                          hello@nabil.design <br />
+                          Based in Modhupur,Tangail
+                        </h2>
+                        <p>© 2023 Nabil. All Rights Reserved</p>
+                      </div>
+                      <div class="hero-card-icon">
+                        <a
+                          href="https://www.facebook.com/profile.php?id=100093201083950"
+                        >
+                          <i
+                            data-aos="zoom-out-right"
+                            data-aos-duration="2000"
+                            class="fa-brands fa-facebook"
+                          ></i>
+                        </a>
+                        <a href="">
+                          <i
+                            data-aos="zoom-out-right"
+                            data-aos-duration="1500"
+                            class="fa-brands fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="">
+                          <i
+                            data-aos="zoom-out-right"
+                            data-aos-duration="1000"
+                            class="fa-brands fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="">
+                          <i
+                            data-aos="zoom-out-right"
+                            data-aos-duration="500"
+                            class="fa-brands fa-github"
+                          ></i>
+                        </a>
+                      </div>
+                      <div class="hero-card-btn">
+                        <p><i class="fa-regular fa-envelope"></i> Hire Me!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- main -->
+
+          <div class="col-md-9" id="main">
+            <div class="container">
+              <div class="row">
+                <!-- navbar -->
+                <div class="col-md-12">
+                  <div class="nav-btn">
+                    <nav class="navbar">
+                      <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                          <img width="20%" src="./images/logo.png" alt="" />
+                        </a>
+                        <button
+                          class="navbar-toggler navbar-toggler-custom z-2"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasNavbar"
+                          aria-controls="offcanvasNavbar"
+                          aria-label="Toggle navigation"
+                        >
+                          <i
+                            class="fa-solid fa-bars fa-fade navbar-toggler"
+                          ></i>
+                          <!-- <span style="color: #28e980;" class="navbar-toggler-icon"></span> -->
+                        </button>
+                        <div
+                          class="offcanvas offcanvas-end"
+                          tabindex="-1"
+                          id="offcanvasNavbar"
+                          aria-labelledby="offcanvasNavbarLabel"
+                        >
+                          <div class="offcanvas-header">
+                            <span
+                              class="offcanvas-title"
+                              id="offcanvasNavbarLabel"
+                            >
+                              <img
+                                src="./images/logo.png"
+                                class=""
+                                width="40%"
+                                alt=""
+                              />
+                            </span>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="offcanvas"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <ul
+                              class="navbar-nav justify-content-end flex-grow-1 pe-3"
+                            >
+                              <li class="nav-item">
+                                <a
+                                  class="nav-link active"
+                                  aria-current="page"
+                                  href="#"
+                                  ><i class="fa-solid fa-house-chimney"></i>
+                                  Home</a
+                                >
+                              </li>
+
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                  ><i class="fa-regular fa-address-card"></i>
+                                  About</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                  ><i class="fa-solid fa-briefcase"></i>
+                                  Resume</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                  ><i class="fa-solid fa-bars-staggered"></i>
+                                  Services</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                  ><i class="fa-solid fa-shapes"></i> Skills</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                  <i class="fa-solid fa-grip-vertical"></i>
+                                  Portfolio</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                  ><i class="fa-regular fa-message"></i>
+                                  Testimonial</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                  ><i class="fa-regular fa-envelope"></i>
+                                  Contact</a
+                                >
+                              </li>
+                            </ul>
+                            <div class="nav-inline-item">
+                              <div class="row">
+                                <div class="col-md-12"><p>Social</p></div>
+                                <div class="col-md-12">
+                                  <i class="fa-brands fa-facebook"></i>
+                                  <i class="fa-brands fa-instagram"></i>
+                                  <i class="fa-brands fa-twitter"></i>
+                                  <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+
+                <!-- hero -->
+
+                <div class="col-md-12" id="hero">
+                  <div class="hero-text">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div
+                          class="hero-text-title"
+                          data-aos="zoom-out-right"
+                          data-aos-duration="1500"
+                        >
+                          <span>
+                            <i class="fa-solid fa-house-chimney fa-fw me-2"></i
+                            >INTRODUCE
+                          </span>
+                        </div>
+                        <div
+                          class="hero-text-heading"
+                          data-aos="fade-right"
+                          data-aos-offset="300"
+                          data-aos-easing="ease-in-sine"
+                        >
+                          <h2>
+                            Say Hi from
+                            <span style="color: #28e980">Nabil</span>,<br />
+                            Webflow Designer and Developer
+                          </h2>
+                        </div>
+                        <div
+                          class="hero-text-description"
+                          data-aos="fade-up"
+                          data-aos-duration="3000"
+                        >
+                          <p>
+                            I design and code beautifully simple things and i
+                            love what i do. Just simple like that!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="hero-rounded-img">
+                          <a href="">
+                            <img src="./images/round-text.png" alt="" />
+                            <!-- <i class="fa-solid fa-arrow-down"></i> -->
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-12 hero-experience">
+                        <div
+                          class="m-5"
+                          data-aos="zoom-in-right"
+                          data-aos-duration="1500"
+                        >
+                          <h2>1 years +</h2>
+                          <p>WEAKS OF EXPERIENCE</p>
+                        </div>
+                        <div
+                          class="m-5"
+                          data-aos="zoom-in-left"
+                          data-aos-duration="1500"
+                        >
+                          <h2>18+ works</h2>
+                          <p>PROJECTS COMPLETED ON 15 COUNTRIES</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- About -->
+                <div class="col-nd-12">
+                  <div id="about">
+                    <div class="row">
+                      <div
+                        class="title"
+                        data-aos="zoom-out-right"
+                        data-aos-duration="1500"
+                      >
+                        <p><i class="fa-regular fa-user me-2"></i> ABOUT</p>
+                      </div>
+                      <div
+                        class="heading"
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                      >
+                        <h2>
+                          Every great design begin with <br />
+                          an even
+                          <span style="color: #28e980">better story</span>
+                        </h2>
+                      </div>
+                      <div
+                        class="description"
+                        data-aos="fade-up"
+                        data-aos-duration="3000"
+                      >
+                        <p>
+                          Since beginning my journey as a freelance designer
+                          nearly 1 years ago, I've done remote work for
+                          agencies, consulted for startups, and collaborated
+                          with talented people to create digital products for
+                          both business and consumer use. I'm quietly confident,
+                          naturally curious, and perpetually working on
+                          improving my chopsone design problem at a time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Resume -->
+
+                <div class="col-md-12" id="resume">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div
+                        class="title"
+                        data-aos="zoom-out-right"
+                        data-aos-duration="1500"
+                      >
+                        <p><i class="fa-solid fa-briefcase me-2"></i> Resume</p>
+                      </div>
+                      <div
+                        class="heading"
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                      >
+                        <h2>
+                          Education &amp;
+                          <span style="color: #28e980"> Experience </span>
+                        </h2>
+                      </div>
+                      <div class="resume-time-line">
+                        <div
+                          class="item"
+                          data-aos="fade-left"
+                          data-aos-easing="linear"
+                          data-aos-duration="1500"
+                        >
+                          <span class="date"> 2023-present </span>
+                          <h2>Framer Desinger &amp; Developer</h2>
+                          <p>Brunodee Agency</p>
+                          <h2>Front-End WordPress Developer</h2>
+                          <p>Envato Market</p>
+                        </div>
+                        <div
+                          class="item item-2 mt-sm-5"
+                          data-aos="fade-right"
+                          data-aos-easing="linear"
+                          data-aos-duration="1500"
+                        >
+                          <span class="date"> 2023-present </span>
+                          <h2>Framer Desinger &amp; Developer</h2>
+                          <p>Brunodee Agency</p>
+                          <h2>Front-End WordPress Developer</h2>
+                          <p>Envato Market</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- services -->
+
+                <div class="col-md-12">
+                  <div id="services">
+                    <div
+                      class="title"
+                      data-aos="zoom-out-right"
+                      data-aos-duration="1500"
+                    >
+                      <p>
+                        <i class="fa-solid fa-bars-staggered me-2"></i>Services
+                      </p>
+                    </div>
+                    <div
+                      class="heading"
+                      data-aos="fade-right"
+                      data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"
+                    >
+                      <h2>
+                        My <span style="color: #28e980">Specializations</span>
+                      </h2>
+                    </div>
+                    <div
+                      class="service-items"
+                      data-aos="fade-left"
+                      data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"
+                    >
+                      <div class="text">
+                        <h2>Front-End Design &amp; Development</h2>
+                        <p>
+                          I build website with HTML,CSS,Bootstrap,Tailwind
+                          CSS,jQuary.
+                        </p>
+                      </div>
+                      <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- skills -->
+                <div class="col-md-12">
+                  <div id="skills">
+                    <div
+                      class="title"
+                      data-aos="zoom-out-right"
+                      data-aos-duration="1500"
+                    >
+                      <p><i class="fa-solid fa-shapes me-2"></i> Skills</p>
+                    </div>
+                    <div
+                      class="heading"
+                      data-aos="fade-right"
+                      data-aos-easing="linear"
+                      data-aos-duration="1500"
+                    >
+                      <h2>My<span style="color: #28e980">Advantages</span></h2>
+                    </div>
+                    <div class="skills-item">
+                      <div class="container text-center">
+                        <div class="row row-cols-1 row-cols-lg-4 g-2 g-lg-3">
+                          <div class="col">
+                            <div class="p-3">
+                              <div
+                                class="item"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                data-aos="zoom-in-down"
+                              >
+                                <img src="./images/html-48.png" alt="" />
+                                <h2>96%</h2>
+                                <p>HTML:5</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <div
+                                class="item"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                data-aos="fade-right"
+                              >
+                                <img src="./images/css-48.png" alt="" />
+                                <h2>96%</h2>
+                                <p>CSS</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <div
+                                class="item"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                data-aos="zoom-in-right"
+                              >
+                                <img src="./images/bootstrap-48.png" alt="" />
+                                <h2>96%</h2>
+                                <p>Bootstrap</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <div
+                                class="item"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                data-aos="fade-down"
+                              >
+                                <img
+                                  src="./images/icons8-tailwind-css-48.png"
+                                  alt=""
+                                />
+                                <h2>96%</h2>
+                                <p>Tailwind CSS</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <div
+                                class="item"
+                                data-aos="zoom-out-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                              >
+                                <img src="./images/jquery.png" alt="" />
+                                <h2>96%</h2>
+                                <p>jQuary</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- PORTFOLIO  not COMPLETED -->
+                <div class="col-md-12">
+                  <div id="portfolio">
+                    <div
+                      class="title"
+                      data-aos="zoom-out-right"
+                      data-aos-duration="1500"
+                    >
+                      <p>
+                        <i class="fa-solid fa-grip-vertical me-2 fa-fw"></i>
+                        PORTFOLIO
+                      </p>
+                    </div>
+                    <div
+                      class="heading"
+                      data-aos="fade-right"
+                      data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"
+                    >
+                      <h2>
+                        Featured
+                        <span style="color: #28e980">Projects</span>
+                      </h2>
+                    </div>
+                    <div class="testimonial-slider"></div>
+                  </div>
+                </div>
+
+                <!-- TESTIMONIAL -->
+                <div class="col-md-12">
+                  <div id="testimonial">
+                    <div
+                      class="title"
+                      data-aos="zoom-out-right"
+                      data-aos-duration="1500"
+                    >
+                      <p>
+                        <i class="fa-regular fa-message me-2"></i>TESTIMONIAL
+                      </p>
+                    </div>
+                    <div
+                      class="heading"
+                      data-aos="fade-right"
+                      data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"
+                    >
+                      <h2>
+                        Trusted by
+                        <span style="color: #28e980"> Hundered Clients</span>
+                      </h2>
+                    </div>
+                    <!-- .testimonial-slider -->
+                    <div class="testimonial-slider">
+                      <div class="owl-carousel owl-theme">
+                        <div class="item"><h4>1</h4></div>
+                        <div class="item"><h4>2</h4></div>
+                        <div class="item"><h4>3</h4></div>
+                        <div class="item"><h4>4</h4></div>
+                        <div class="item"><h4>5</h4></div>
+                        <div class="item"><h4>6</h4></div>
+                        <div class="item"><h4>7</h4></div>
+                        <div class="item"><h4>8</h4></div>
+                        <div class="item"><h4>9</h4></div>
+                        <div class="item"><h4>10</h4></div>
+                        <div class="item"><h4>11</h4></div>
+                        <div class="item"><h4>12</h4></div>
+                      </div>
+                    </div>
+                    <!-- testimonial-clients-brand -->
+                    <div class="testimonial-clients-brand mt-5">
+                      <div class="container">
+                        <p
+                          class="heading"
+                          data-aos="fade-right"
+                          data-aos-easing="linear"
+                          data-aos-duration="1500"
+                        >
+                          WORK WITH 60+ BRANDS WORLDWIDE
+                        </p>
+                        <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+                          <div class="col">
+                            <div class="p-3">
+                              <img
+                                src="./images/client-1.png"
+                                data-aos="fade-down"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <img
+                                src="./images/client-2.png"
+                                data-aos="fade-right"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <img
+                                src="./images/client-3.png"
+                                data-aos="fade-left"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <img
+                                src="./images/client-4.png"
+                                data-aos="fade-up-left"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <img
+                                src="./images/client-5.png"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                data-aos="fade-down"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <img
+                                src="./images/client-6.png"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                data-aos="fade-left"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <img
+                                src="./images/client-7.png"
+                                data-aos="fade-up-left"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3">
+                              <img
+                                src="./images/client-8.png"
+                                data-aos="fade-down-right"
+                                data-aos-duration="1500"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- pricing -->
+                <div class="col-md-12">
+                  <div id="pricing">
+                    <div
+                      class="title"
+                      data-aos="zoom-out-right"
+                      data-aos-duration="1500"
+                    >
+                      <p>
+                        <i class="fa-solid fa-dollar-sign me-2"></i> My Pricing
+                      </p>
+                    </div>
+                    <h2
+                      class="heading"
+                      data-aos="fade-right"
+                      data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"
+                    >
+                      My<span style="color: #28e980">Pricing</span>
+                    </h2>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div
+                          class="price-card"
+                          data-aos="fade-right"
+                          data-aos-offset="300"
+                          data-aos-easing="ease-in-sine"
+                        >
+                          <div class="price-card-head">
+                            <div class="heading">
+                              <h3>BASIC</h3>
+                              <p>
+                                Have design ready to build? <br />
+                                or small budget
+                              </p>
+                            </div>
+                            <h2 class="price-card-price">
+                              <span
+                                style="
+                                  color: #28e980;
+                                  font-size: 40px;
+                                  margin-left: 5px;
+                                "
+                                >$49</span
+                              >/hours
+                            </h2>
+                          </div>
+                          <div class="description mt-5">
+                            <p>Implement with HTML:5, CSS, bootstrap, js.</p>
+
+                            <p>Remote/Online</p>
+                            <p>Work in business days, no weekend.</p>
+                            <p>Support 6 months</p>
+                          </div>
+                          <div class="btn">
+                            <a href="">PICK THIS PACKAGE</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div
+                          class="price-card"
+                          data-aos="fade-left"
+                          data-aos-offset="300"
+                          data-aos-easing="ease-in-sine"
+                        >
+                          <div class="price-card-head">
+                            <div class="heading">
+                              <h3>PREMIUM</h3>
+                              <p>
+                                Have design ready to build? <br />
+                                or small budget
+                              </p>
+                            </div>
+                            <h2 class="price-card-price">
+                              <span
+                                style="
+                                  color: #28e980;
+                                  font-size: 40px;
+                                  margin-left: 5px;
+                                "
+                                >$99</span
+                              >/hours
+                            </h2>
+                          </div>
+                          <div class="description mt-5">
+                            <p>Implement with HTML:5,CSS,Tailwind,js.</p>
+
+                            <p>Remote/Online</p>
+                            <p>Work with both weekend.</p>
+                            <p>Support 12 months</p>
+                          </div>
+                          <div class="btn">
+                            <a href="">PICK THIS PACKAGE</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-md-12">
+                  <div id="contact">
+                    <div
+                      class="title"
+                      data-aos="zoom-out-right"
+                      data-aos-duration="1500"
+                    >
+                      <p><i class="fa-solid fa-envelope me-2"></i> Contact</p>
+                    </div>
+                    <div
+                      class="heading"
+                      data-aos="fade-right"
+                      data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"
+                    >
+                      <h2>
+                        Let's Work<span style="color: #28e980">
+                          Together!
+                        </span>
+                      </h2>
+                      <p>hello@nabil.design</p>
+                    </div>
+                    <form action="post">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="input-group">
+                            <label for="full-name" class="me-1">
+                              Full Name :<sup
+                                style="color: red; font-size: 16px"
+                                >*</sup
+                              ></label
+                            >
+                            <input
+                              type="text"
+                              name="full-name"
+                              placeholder="Full Name"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="input-group">
+                            <label for="email" class="me-1">
+                              Email :<sup style="color: red; font-size: 16px"
+                                >*</sup
+                              ></label
+                            >
+                            <input
+                              type="email"
+                              name="email"
+                              placeholder="Email"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="input-group">
+                            <label for="phone" class="me-1">
+                              PHONE (OPTIONAL) :<sup
+                                style="color: red; font-size: 16px"
+                                >*</sup
+                              ></label
+                            >
+                            <input
+                              type="phone"
+                              name="phone"
+                              placeholder="phone"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="input-group">
+                            <label for="budget" class="me-1"
+                              >YOUR BUDGET (OPTIONAL) :<sup
+                                style="color: red; font-size: 16px"
+                                >*</sup
+                              ></label
+                            >
+                            <input
+                              type="text"
+                              name="budget"
+                              placeholder="Your budget"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="input-group">
+                            <p>
+                              <label for="subject" class="me-1"
+                                >Type of My works :<sup
+                                  style="color: red; font-size: 16px"
+                                  >*</sup
+                                ></label
+                              ><span
+                                class="wpcf7-form-control-wrap"
+                                data-name="subject"
+                                ><select
+                                  class="wpcf7-form-control wpcf7-select input-group"
+                                  id="subject"
+                                  aria-invalid="false"
+                                  name="subject"
+                                >
+                                  <option value="Subject 1">Basic</option>
+                                  <option value="Subject 2">Standard</option>
+                                  <option value="Subject 3">Premium</option>
+                                </select></span
+                              >
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-12 input-group">
+                          <label for="message" class="me-1"
+                            >Message :<sup style="color: red; font-size: 16px"
+                              >*</sup
+                            ></label
+                          >
+                          <textarea
+                            placeholder="Write message here..."
+                            name="message"
+                            id=""
+                            cols="30"
+                            rows="5"
+                          ></textarea>
+                        </div>
+                        <div class="col-md-12 input-group">
+                          <button type="submit">send message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <footer class="text-center">
+                    <h2 class="text-light">Designed by <span style="color: #28e980;">@Nabil</span></h2>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- bootstrap link -->
+    <script
+      src="./js/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="./js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- owlcarousel -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- AOS animation js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- my js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
