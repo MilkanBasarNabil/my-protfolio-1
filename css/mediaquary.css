@@ -1,67 +1,147 @@
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .hero-text .heading h1 {
-    font-size: 30px !important;
-    letter-spacing: 2px !important;
-    line-height: 3rem !important;
+@media (max-width: 1200px) {
+  .hero-rounded-img i {
+    top: 50%;
+    left: 86%;
   }
-  .heading h2 {
-    font-size: 30px;
-  }
-  .description p {
-    padding: 1% 1%;
-  }
-  #contact .text {
-    margin-left: 16%;
-  }
-  footer .text h3 {
-    font-size: 30px;
-  }
-  footer .text p {
+  /* .hero-card-box {
+    max-width:767px;
     
-    font-size: 14px;
-   
+} */
 }
-.footer-social .icon a {
-  color: #fff;
-  margin-right: 0px;
-  font-size: 24px;
-  text-decoration: none;
-}
-}
-/* // `md` applies to small devices (landscape phones, less than 768px)  */
-@media (max-width: 767.98px) {
-  #hero {
-    padding-top: 16%;
 
-    background-size: 59%;
-  }
-
-  .hero-text .heading h1 {
-    font-size: 56px;
-    letter-spacing: 4px;
-    line-height: 5rem;
-  }
-  .heading h2 {
-    font-size: 30px;
-
-    word-spacing: 1px;
-  }
-  .description p {
-    padding: 1% 3%;
+@media (max-width: 992px) {
+  .hero-rounded-img i {
+    top: 50%;
+    left: 81%;
   }
 }
 
-/* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-  ...;
+@media (max-width: 767.8px) {
+  #main {
+    margin-top: 215%;
+    /* padding: 1% 1%; */
+    width: 100%;
+}
+  .navbar {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* position: fixed;
+    z-index: 0; */
+  }
+  .hero-card-box {
+    margin-top: 3%;
+    display: contents;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-card {
+    margin-top: 29%;
+    width: 100%;
+    position: absolute;
+  }
+ 
+  .hero-text-heading h2 {
+    font-size: 34px;
+  }
+  .hero-rounded-img i {
+    top: 54%;
+    left: 91%;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0.1px;
+    z-index: 1;
+}
+ 
+  .hero-text-heading h2 {
+    font-size: 25px;
+}
+.hero-experience h2 {
+  font-size: 25px;
+  color: #28e98c;
+}
+#about .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+#resume .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+.resume-time-line .item h2 {
+  color: #ffffff;
+  margin-top: 5%;
+  font-size: 17px;
+  /* font-weight: 500; */
+}
+#services .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+}
+.service-items .text h2 {
+  font-size: 16px;
+  color: #ffffff;
+}
+.service-items .text p {
+  font-size: 10px;
+  color: #ffffffb1;
+}
+#skills .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 3%;
+}
+#portfolio .heading h2 {
+  font-size: 25px;
+  margin-top: 4px;
+  color: #ffffff;
+}
+#testimonial .heading h2 {
+  font-size: 25px;
+  margin-top: 4px;
+  color: #ffffff;
+}
+.testimonial-clients-brand img {
+  width: 100%;
+}
+#pricing .heading {
+  color: #ffffff;
+  font-size: 25px;
+}
+#contact .heading h2 {
+  font-size: 25px;
+  color: #ffffff;
+}
+}
+@media (max-width: 421px) {
+ 
+  .hero-rounded-img i {
+    top: 45%;
+    left: 81%;
+  }
 }
 
-/* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-  ...;
-}
-
-/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
-}
