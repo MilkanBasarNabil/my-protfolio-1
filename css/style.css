@@ -105,8 +105,8 @@ z-index: 9999;
 .hero-card {
   top: 0;
   left: 0;
-  width: 30%; /***************/
-  padding: 3.4% 1%;
+  width: 23%; /***************/
+  padding: 1% 1%;
   margin: 1%;
   color: #fff;
   border: 1px solid #999999;
@@ -133,7 +133,7 @@ z-index: 9999;
 }
 .hero-card-img img {
   border-radius: 20%;
-  width: 40%;
+  width: 78%;
 }
 .hero-card-text h2 {
   font-size: 14px;
@@ -256,13 +256,6 @@ z-index: 9999;
   animation: rotating 6s infinite linear;
 }
 
-.hero-rounded-img i {
-  position: absolute;
-  color: #fff;
-  font-size: 30px;
-  top: 50%;
-  left: 87%;
-}
 
 /* hero-experience */
 
@@ -338,7 +331,7 @@ z-index: 9999;
   margin-top: 10%;
   position: relative;
 }
-/* .resume-time-line .item::before {
+.resume-time-line .item::before {
   content: "";
   position: absolute;
   width: 12px;
@@ -349,7 +342,7 @@ z-index: 9999;
   top: 7px;
   transition: 0.3s;
   z-index: 1;
-} */
+}
 
 .resume-time-line .item h2 {
   color: #ffffff;
@@ -729,7 +722,9 @@ z-index: 9999;
 } */
 .input-group textarea {
   border: none;
+  color: #28e98c;
   width: 100%;
+  
 }
 /* .input-group textarea:hover{
   border: 1px solid #28e98c;
